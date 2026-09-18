@@ -362,11 +362,11 @@ public final class Config implements Cloneable, Observable {
 
     public void setPromptedVersion(String promptedVersion) {
         this.promptedVersion.set(promptedVersion);
+    }
         // 120 FPS & Vulkan Overrides
     public static int DEFAULT_MAX_FPS = 120;
     public static boolean DEFAULT_ENABLE_VULKAN = true;
     public static String DEFAULT_RENDERER = "zink";
     public static int DEFAULT_RAM_MB = 2048;
     public static String DEFAULT_JVM_ARGS = "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=20 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -Dsun.net.client.defaultConnectTimeout=5000 -Dsun.net.client.defaultReadTimeout=5000 -Djava.net.preferIPv4Stack=true";
-    }
 }
