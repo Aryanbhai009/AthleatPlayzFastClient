@@ -1,0 +1,51 @@
+{
+  "name": "4-Finger Combo PvP Claw",
+  "version": 1,
+  "buttons": [
+    {
+      "name": "Joystick",
+      "key": "WASD",
+      "x": 0.08,
+      "y": 0.65,
+      "width": 0.22,
+      "height": 0.35,
+      "type": "JOYSTICK"
+    },
+    {
+      "name": "ATTACK (LMB)",
+      "key": "LMB",
+      "x": 0.78,
+      "y": 0.08,
+      "width": 0.18,
+      "height": 0.28,
+      "type": "BUTTON"
+    },
+    {
+      "name": "USE/BLOCK (RMB)",
+      "key": "RMB",
+      "x": 0.04,
+      "y": 0.08,
+      "width": 0.18,
+      "height": 0.28,
+      "type": "BUTTON"
+    },
+    {
+      "name": "JUMP",
+      "key": "SPACE",
+      "x": 0.82,
+      "y": 0.52,
+      "width": 0.12,
+      "height": 0.18,
+      "type": "BUTTON"
+    },
+    {
+      "name": "OFFHAND (F)",
+      "key": "KEY_F",
+      "x": 0.24,
+      "y": 0.12,
+      "width": 0.09,
+      "height": 0.15,
+      "type": "BUTTON"
+    }
+  ]
+}
